@@ -1,0 +1,6 @@
+{
+  "name": "CNC Calc Plus",
+  "description": "Professional CNC turning & Swiss-type lathe calculations, Fanuc G-code generation, automated safety audits, toolpath simulation, and alarm diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
