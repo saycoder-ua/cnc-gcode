@@ -115,7 +115,7 @@ export const MachineCycleTimeChart: React.FC<MachineCycleTimeChartProps> = ({
             </h3>
             <span title={t('comparativeBenchmarkTooltip')} className="cursor-help inline-block">
               <p className="text-xs text-slate-400">
-                {t('comparativeBenchmark', { partName: drawing.part_name, barDia, length: drawing.workpiece.length_mm, material: selectedMaterial.code })}
+                {t('benchmarkSubtitle')}
               </p>
             </span>
           </div>

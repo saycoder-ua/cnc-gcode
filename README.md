@@ -1,57 +1,22 @@
-<div align="center">
+# CNC-Calc-Plus 🛠️⚙️
 
-# ⚙️ CNC-GCode-v.1.0
+An advanced web-based CNC turning calculator, Swiss-type lathe optimization suite, G-code generator, and machine shop assistant. Designed for professional CNC programmers, setup specialists, and machinists.
 
-### Advanced Web-Based CNC Turning Calculator & G-Code Generation Suite
-
-Production-grade web toolkit for Swiss-type lathe optimization, geometric contour building, AI blueprint vision parsing, safety auditing, and advanced G-code generation.
-
-<br>
-
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+![CNC-Calc-Plus Banner](https://img.shields.io/badge/CNC--Calc--Plus-Production%20Ready-amber)
+![TypeScript](https://img.shields.io/badge/TypeScript-React-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-cyan)
 
 ---
 
-### 🏭 Calculate • Optimize • Generate • Verify
+## 🌟 Key Features
 
-Built for professional CNC programmers, setup specialists, machinists, and manufacturing engineers.
-
-</div>
-
----
-
-# 📑 Table of Contents
-
-- [🚀 Overview](#-overview)
-- [✨ Key Features](#-key-features)
-- [🛠 Technology Stack](#-technology-stack)
-- [⚡ Quick Start](#-quick-start)
-- [📦 Build & Production](#-build--production)
-- [📄 License](#-license)
-
----
-
-# 🚀 Overview
-
-**CNC-GCode-v.1.0** is a modern browser-based manufacturing suite designed to eliminate manual spreadsheet calculations and reduce programming errors on the shop floor. It integrates geometry handling, material-specific cutting data, automated safety rules, and multi-dialect G-code output.
-
-The application runs entirely client-side or locally, offering seamless support for standard 2-axis CNC lathes and complex Swiss-type sliding headstock machines (Tsugami, Star, Citizen).
-
----
-
-# ✨ Key Features
-
-1. **Drawing & Contour Builder**: Interactive geometric contour creation supporting chamfers, radii, threads, and multi-step turning profiles.
+1. **Drawing & Contour Builder**: Interactive geometric contour creation with chamfers, radii, threads, and multi-step turning profiles.
 2. **AI Blueprint Vision Parser**: Upload part drawings or blueprint photos to automatically extract dimensions, tolerances, and features.
 3. **Advanced G-Code Generation (Fanuc & Siemens Dialects)**:
-   - Supports G71 roughing, G70 finishing, G76 threading, G84 tapping, and standard canned cycles.
+   - Supports G71 roughing, G70 finishing, G76 threading, G84 tapping, and canned cycles.
    - Swiss-type sliding headstock single-pass optimization (Tsugami, Star, Citizen Cincom).
 4. **Automated Safety Audit (Safety Check Engine)**:
-   - Mandatory **G50** spindle speed clamping check before constant surface speed ($G96$).
+   - Mandatory **G50** spindle speed clamping check before CSS (`G96`).
    - Slenderness ratio ($L/D$) deflection and vibration warnings.
    - Chuck/collet interference zone collision detection ($Z_{\text{limit}}$).
 5. **Machine & Material Database**:
@@ -63,67 +28,51 @@ The application runs entirely client-side or locally, offering seamless support 
 
 ---
 
-# 🛠 Technology Stack
+## 🚀 Tech Stack
 
-| Technology | Purpose |
-|------------|----------|
-| **React 19** | UI Framework & Component Architecture |
-| **TypeScript** | Strict Type Safety & Data Models |
-| **Tailwind CSS v4** | Modern Utility-First Styling |
-| **Vite** | Blazing-fast Development & Bundling |
-| **Recharts & Canvas** | Toolpath Visualization & Analytics |
-| **Google GenAI SDK** | AI Blueprint Vision Parsing |
+- **Frontend**: React 19, Vite, TypeScript
+- **Styling**: Tailwind CSS v4, Lucide Icons
+- **Charts & Visualization**: Recharts, Custom HTML5 Canvas Toolpath Simulator
+- **AI Integration**: Google GenAI SDK (`@google/genai`) for intelligent blueprint vision parsing
 
 ---
 
-# ⚡ Quick Start
+## 🛠️ Installation & Local Development
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/saycoder-ua/cnc-gcode.git
-cd cnc-gcode
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cnc-calc-plus.git
+   cd cnc-calc-plus
+   ```
 
-### 2. Install Dependencies
-```bash
-npm install
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### 3. Run Development Server
-```bash
-npm run dev
-```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Open your browser and navigate to: `http://localhost:3000`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-# 📦 Build & Production
+## 📦 Build & Production
 
-### Build for Production
+To build for production:
 ```bash
 npm run build
 ```
 
-### Preview Production Build Locally
+To preview the production build locally:
 ```bash
 npm run preview
 ```
 
 ---
 
-# 📄 License
+## 📄 License
 
-This project is licensed under the **MIT License**. Feel free to use, modify, and distribute for personal and commercial shop floor applications.
-
----
-
-<div align="center">
-
-# ⚙️ CNC-GCode-v.1.0
-
-**Precision turning calculations and G-code automation for modern machine shops.**
-
-⭐ Star this repository if you find it useful!
-
-</div>
+This project is licensed under the MIT License.
