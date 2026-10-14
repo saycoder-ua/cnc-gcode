@@ -1,8 +1,8 @@
-# CNC-Calc-Plus 🛠️⚙️
+# CNC-Gcode🛠️⚙️
 
 An advanced web-based CNC turning calculator, Swiss-type lathe optimization suite, G-code generator, and machine shop assistant. Designed for professional CNC programmers, setup specialists, and machinists.
 
-![CNC-Calc-Plus Banner](https://img.shields.io/badge/CNC--Calc--Plus-Production%20Ready-amber)
+![CNC-Calc-Plus Banner](https://img.shields.io/badge/CNC-Gcode-Production%20Ready-amber)
 ![TypeScript](https://img.shields.io/badge/TypeScript-React-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-cyan)
 
@@ -41,7 +41,7 @@ An advanced web-based CNC turning calculator, Swiss-type lathe optimization suit
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cnc-calc-plus.git
+   git clone https://github.com/your-username/cnc-gcode.git
    cd cnc-calc-plus
    ```
 
